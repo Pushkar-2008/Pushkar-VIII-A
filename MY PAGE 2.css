@@ -1,0 +1,92 @@
+body {
+  
+    font-family: 'Poppins';
+    color: #707070;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #h1{
+    color:#707070 ;
+    font-family: 'Poppins';
+  }
+  #header{
+    background-color:#f8f8f8;
+    color:#707070 ;
+    font-family: 'Poppins';
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+   
+
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  #parent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+  }
+  
+  #child1 {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #child2 {
+    flex: 1.5;
+  }
+  header {
+    text-align: right;
+    background-color: #ededed;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  #name {
+    font-family: 'Segoe Print';
+    color: #534f4f;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .sub-heading {
+    font-weight: 100;
+  }
+  .info {
+    color: #d53333;
+  }
+  #active-link {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  #bio {
+    margin-top: 0;
+  }
+  a{
+  padding-left: 8px;
+font-family:'Poppins';
+  padding-right: 8px;
+  text-decoration: none;
+color: #707070;
+  }
+  @media screen and (max-width: 650px) {
+    #child2 {
+      text-align: center;
+    }
+    header {
+      background-color: white;
+    }
+    #parent {
+      padding-top: 20px;
+    }
+    a {
+      display: block;
+      text-align: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-decoration: none;
+    }
+  }
+  
